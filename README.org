@@ -59,10 +59,13 @@ To install
 ** Examples
 
 *** Editing gds with Magic
-
-    magic -T ../open_pdks/sky130/magic/sky130gds.tech gds/mawson-lakes-org.gds
+#+begin_src sh
+  magic -T ../open_pdks/sky130/magic/sky130gds.tech gds/mawson-lakes-org.gds
+#+end_src
 
 or, to load the sky130 technology file separately, at the prompt in the magic
 console, use:
+#+begin_src tcl 
+  tech load ../open_pdks/sky130/magic/sky130gds.tech
+#+end_src
 
-    tech load ../open_pdks/sky130/magic/sky130gds.tech
