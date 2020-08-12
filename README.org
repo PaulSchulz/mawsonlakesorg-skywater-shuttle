@@ -69,3 +69,9 @@ console, use:
   tech load ../open_pdks/sky130/magic/sky130gds.tech
 #+end_src
 
+From the documentation, for the 'metal 1' layer
+| Parameter    | Size       | Comment                         |
+|--------------+------------+---------------------------------|
+| Feature Size | 0.14 um    |                                 |
+| Space Size   | 0.14 um    | Space between features          |
+| Minimum Area | 0.083 um^2 | Equivalent to 0.28 um x 0.28 um |
