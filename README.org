@@ -1,4 +1,4 @@
-* MawsonLakes.Org SkyWater 
+* MawsonLakes.Org SkyWater Shuttle
 
 This repository contains the files and documentation for production of as ASIC
 via the Google and Skywater shuttle program.
@@ -57,7 +57,6 @@ To install
 #+end_src
 
 ** Examples
-
 *** Editing gds with Magic
 #+begin_src sh
   magic -T ../open_pdks/sky130/magic/sky130gds.tech gds/mawson-lakes-org.gds
@@ -69,9 +68,15 @@ console, use:
   tech load ../open_pdks/sky130/magic/sky130gds.tech
 #+end_src
 
+In this example, we are creating and editing a feature in the 'metal 1' layer.
+Details of the constraints can be found in the documentation:
+https://skywater-pdk.readthedocs.io/en/latest/rules/assumptions.html#minimum-critical-dimensions
+ 
 From the documentation, for the 'metal 1' layer
 | Parameter    | Size       | Comment                         |
 |--------------+------------+---------------------------------|
 | Feature Size | 0.14 um    |                                 |
 | Space Size   | 0.14 um    | Space between features          |
 | Minimum Area | 0.083 um^2 | Equivalent to 0.28 um x 0.28 um |
+
+If these parameters are not satisfied, Magic will flag it as an error.
