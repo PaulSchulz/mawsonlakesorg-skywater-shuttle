@@ -56,6 +56,30 @@ To install
   sudo apt install klayout
 #+end_src
 
+*** GDS2WebGL
+
+Tool to produce a a visualisation of VLSI design in a 3D layout, viewable in a
+web browser.
+
+Available here: https://github.com/s-holst/GDS2WebGL
+#+begin_src sh
+  # In parent directory
+  git clone https://github.com/s-holst/GDS2WebGL
+  pip3 install gdspy
+  pip3 install pyclipper
+  pip3 install mapbox_earcut
+
+  cd mawsonlakes-skywater-shuttle/doc
+  cp ../../GDS2WebGL/index.html .
+  cp ../../GDS2WebGL/bundle.js .
+  python3 ../../GDS2WebGL/gds2webgl.py -i ../gds/open-source-hardware.gds -o open-source-hardware.html
+#+end_src
+
+Then open a browser to 'open-source-hardware.html'
+#+begin_src sh
+  chromium-browser open-source-hardware.html
+#+end_src
+
 ** Examples
 *** Editing gds with Magic
 #+begin_src sh
