@@ -9,7 +9,7 @@ These files were created using software installed on Ubuntu (most recent -
 20.04.1).
 
 Most of these tools are hosted by 'efabless'. For more information, see:
-https://opencircuitdesign.com
+http://opencircuitdesign.com
 
 *** Open PDKS
 
