@@ -177,6 +177,16 @@ Then open a browser to 'open-source-hardware.html'
   chromium-browser open-source-hardware.html
 #+end_src
 
+** Targets and Building
+   
+The Makefile has been configured with the following targets:
+#+begin_src sh
+  make TARGET
+#+end_src
+| TARGET | Description                          |
+|--------+--------------------------------------|
+| doc    | Produces HTML documentation in 'doc' |
+
 ** Examples
 *** Editing gds with Magic
 #+begin_src sh
