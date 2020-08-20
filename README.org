@@ -11,7 +11,7 @@ These files were created using software installed on Ubuntu (most recent -
 Most of these tools are hosted by 'efabless'. For more information, see:
 https://opencircuitdesign.com
 
-*** Open PDKS
+*** Open PDKS (part 1)
 
 The Open-PDKs project aims to collect the technology data for open and freely
 available Process Development Kits for ASIC development.
@@ -24,15 +24,112 @@ Download with:
   git clone git://opencircuitdesign.com/open_pdks
 #+end_src
 
+Documentation on how to proceed installing the Skywater SDK, as well as how to
+configure the various tools, can be found in the document: open_pdks/sky130/README
+
+*** Skywater SDK
+
+This repository contans the foundry source files for the Skywater sky130 130nm process.
+
+Download with
+#+begin_src sh
+  git clone https://github.com/google/skywater-pdk
+#+end_src
+
+Installation details can be found in the open_pdks/sky130/README document, but
+the process is:
+#+begin_src sh
+  cd skywater-pdk
+  git submodule init libraries/sky130_fd_sc_hd/latest
+  git submodule init libraries/sky130_fd_sc_hdll/latest
+  git submodule init libraries/sky130_fd_sc_hs/latest
+  git submodule init libraries/sky130_fd_sc_ms/latest
+  git submodule init libraries/sky130_fd_sc_ls/latest
+  git submodule init libraries/sky130_fd_sc_lp/latest
+  git submodule init libraries/sky130_fd_sc_hvl/latest
+  git submodule update
+
+  make timing
+#+end_src
+
+The Skywater PDK uses the Conda Package Management Software to manage it's
+environment and software dependencies.
+
+Configuration
+#+begin_src sh
+  ./configure \
+      --with-sky130-source=$BASEDIR/skywater-pdk \
+      --with-sky130-local-path=$BASEDIR/pdks
+#+end_src
+
 *** Magic VLSI
 
 Magic allows VLSI designs to be drawn by hand and exported to GDS format. It
 does a lot more though, and can be used to check designs created by other means
 against design rule constraints (DRC)
 
-Install with the following (version 8.2.157)
+Magic version 8.3 appears to be required. The version packaged for Ubuntu is
+version 8.2.157 and gives errors during the install, so DON'T do the following
+for now:
 #+begin_src sh
   sudo apt install magic
+#+end_src
+
+Instead, download and install Magic from source:
+#+begin_src sh
+  # Dependancies (there may be more)
+  sudo apt install csh
+  sudo apt install tcl-dev tk-dev
+  
+  git clone https://github.com/RTimothyEdwards/magic.git
+  cd magic
+  ./configure
+  make
+  sudo make install
+#+end_src
+This install the binary, and files:
+#+begin_src
+  /usr/local/bin/magic  (binary)
+  /usr/local/bin/magic/ (lots of stuff, including tutorial files)
+#+end_src
+
+Magic is installed, but it still needs to be configured to use the Sky150
+process and design rules.
+
+*** Open PDKS (Part 2)
+Continue to follow the instructions in: open_pdks/sky130/README
+
+At the top level:
+#+begin_src sh
+  BASEDIR='/put/the/base/directory/of/your/working/files/here'
+  ./configure \
+    --with-sky130-source=$BASEDIR/skywater-sdk \
+    --with-sky130-local-path=$BASEDIR/pdks
+
+  cd sky130
+  make
+  make local-install
+#+end_src
+This will install the SDK files into
+#+begin_src sh
+  $BASEDIR/pdks/sky130A
+#+end_src
+
+Configure the startup script for magic.
+#+begin_src sh
+  ln -s $BASEDIR/pdks/sky130A/libs.tech/magic/sky130A.magicrc ~/.magicrc
+#+end_src
+
+Magic can then be able to be started with:
+#+begin_src sh
+  magic
+#+end_src
+
+When starting up, look for the following line in the console (about 10 lines
+down), which indicated that the Magic configuration file from Open_PDKs has been
+read correctly for the Sky130 PDK.
+#+begin_src 
+  Sourcing design .magicrc for technology sky130A ...
 #+end_src
 
 *** Electric
