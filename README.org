@@ -94,7 +94,7 @@ This install the binary, and files:
 #+end_src
 
 Magic is installed, but it still needs to be configured to use the Sky150
-process and design rules.
+process and design rules. This is done in the next step.
 
 *** Open PDKS (Part 2)
 Continue to follow the instructions in: open_pdks/sky130/README
