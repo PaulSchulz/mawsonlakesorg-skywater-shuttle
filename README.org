@@ -94,11 +94,16 @@ Instead, download and install Magic from source:
 This install the binary, and files:
 #+begin_src
   /usr/local/bin/magic  (binary)
-  /usr/local/bin/magic/ (lots of stuff, including tutorial files)
+  /usr/local/lib/magic/ (lots of stuff, including tutorial files)
 #+end_src
 
 Magic is installed, but it still needs to be configured to use the Sky150
 process and design rules. This is done in the next step.
+
+The tutorial files can be copied to the current directory with
+#+begin_src sh
+  cp /usr/local/lib/magic/tutorials .
+#+end_src
 
 *** Open PDKS (Part 2)
 Continue to follow the instructions in: open_pdks/sky130/README
