@@ -1,7 +1,11 @@
 * MawsonLakes.Org SkyWater Shuttle
 
-This repository contains the files and documentation for production of as ASIC
+This repository contains the files and documentation for production of an ASIC
 via the Google and Skywater shuttle program.
+
+Site: https://github.com/google/skywater-pdk
+
+The specific design and purpose for this ASIC is still a work in progress. 
 
 ** Tools / Installation
 
