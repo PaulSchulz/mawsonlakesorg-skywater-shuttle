@@ -81,7 +81,8 @@ for now:
 
 Instead, download and install Magic from source:
 #+begin_src sh
-  # Dependancies (there may be more)
+
+# Dependancies (there may be more)
   sudo apt install csh
   sudo apt install tcl-dev tk-dev
   
@@ -103,6 +104,17 @@ process and design rules. This is done in the next step.
 The tutorial files can be copied to the current directory with
 #+begin_src sh
   cp /usr/local/lib/magic/tutorials .
+#+end_src
+Magic appears to work better when enabled with the 'DR' option, which is
+required for plotting to SVG. The following can be added to '~/.bashrc' to enable this
+#+begin_src sh
+  alias magic='magic -d XR $@'
+#+end_src
+
+Some additional configurations have been added to the file 'magic/settings.tcl'
+which can be loaded into Magic at the command prompt with:
+#+begin_src tcl
+  source magic/settings.tcl
 #+end_src
 
 *** Open PDKS (Part 2)
@@ -197,9 +209,14 @@ The Makefile has been configured with the following targets:
 | doc    | Produces HTML documentation in 'doc' |
 
 ** Examples
-*** Editing gds with Magic
+*** Editing gds with Magic (minimal installation and setup)
+The following was done prior to 'open_pdks' being used to install the 'sky130'
+PDK. It required that Magic be installed, and that 'open_pdks' be download. The
+VLSI technology layers are available, but there are no Design Rule Checks being
+performed in this case.
+
 #+begin_src sh
-  magic -T ../open_pdks/sky130/magic/sky130gds.tech gds/mawson-lakes-org.gds
+  magic -T ../open_pdks/sky130/magic/sky130gds.tech gds/open-source-hardware.gds
 #+end_src
 
 or, to load the sky130 technology file separately, at the prompt in the magic
@@ -219,4 +236,35 @@ From the documentation, for the 'metal 1' layer
 | Space Size   | 0.14 um    | Space between features          |
 | Minimum Area | 0.083 um^2 | Equivalent to 0.28 um x 0.28 um |
 
-If these parameters are not satisfied, Magic will flag it as an error.
+If these parameters are not satisfied, and if the Design Rules have been
+configured in Magic, it will flag errors and mark the features that need to be
+fixed.
+
+*** Magic Tutorials
+
+Create a local directory, and copy the Magic tutorial files
+#+begin_src sh
+  mkdir magic-tutorial
+  cd magic-tutorial
+  cp /usr/local/lib/magic/tutorial/* .
+#+end_src
+The tutorials can be read with the 'evince' viewer
+#+begin_src sh
+  evince /usr/local/lib/magic/doc/introduction.ps
+#+end_src
+These tutorials are for Magic Version 7, and we have 8.3 installed, but the
+general details are the same.
+
+*** Creating a VLSI Font and Logos
+
+A font for the SkyWater 130nm process has been created, called "font-sky130", as
+well as some logos, for use in the Google + SkyWater process.
+
+Initially, font characters were based on a 7 high x 3 wide grid of 150x150nm
+'pixels' (In magic, these are represented by a 3x3 grid, where the grid size was
+0.05um). The larger characters ('M' and 'W') were based on a 7x7 grid, and the
+smaller characters ('i' and 'l') were based on narrower grid with width 2.
+
+The design rules for the minimum area require that the dots on the 'i' and 'j'
+are 2x2 in size, and that the 'i' has 'serifs'.
+

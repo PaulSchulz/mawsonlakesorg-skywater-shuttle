@@ -1,0 +1,64 @@
+magic
+tech sky130A
+timestamp 1598167552
+use font_M  font_M_0 lib/font-sky130
+timestamp 1598165416
+transform -1 0 795 0 1 -150
+box 720 150 795 255
+use font_a  font_a_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 90 0 1 0
+box 0 0 45 75
+use font_w  font_w_0 lib/font-sky130
+timestamp 1598166646
+transform 1 0 -1140 0 1 0
+box 1290 0 1365 75
+use font_s  font_s_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -810 0 1 0
+box 1050 0 1095 75
+use font_o  font_o_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -510 0 1 0
+box 810 0 855 75
+use font_n  font_n_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -390 0 1 0
+box 750 0 795 75
+use font_L  font_L_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -240 0 1 -150
+box 660 150 705 255
+use font_a  font_a_1
+timestamp 1598165416
+transform 1 0 480 0 1 0
+box 0 0 45 75
+use font_k  font_k_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -30 0 1 0
+box 570 0 615 105
+use font_e  font_e_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 360 0 1 0
+box 240 0 285 75
+use font_g  font_g_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 525 0 1 0
+box 360 -30 405 75
+use font_r  font_r_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -165 0 1 0
+box 990 0 1035 75
+use font_O  font_O_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -120 0 1 -150
+box 885 150 930 255
+use font_.  font_._0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -840 0 1 0
+box 1560 0 1590 30
+use font_s  font_s_1
+timestamp 1598165416
+transform 1 0 -390 0 1 0
+box 1050 0 1095 75
+<< end >>

@@ -1,425 +1,310 @@
 magic
 tech sky130A
-timestamp 1597963875
+timestamp 1598183958
 << metal1 >>
-rect 0 390 45 405
-rect 75 390 90 405
-rect 120 390 160 405
-rect 175 390 220 405
-rect 0 315 15 390
-rect 30 315 45 390
-rect 60 375 90 390
-rect 145 375 160 390
-rect 205 375 220 390
-rect 75 315 90 375
-rect 120 360 160 375
-rect 175 360 220 375
-rect 235 375 250 390
-rect 265 375 280 405
-rect 235 360 280 375
-rect 295 390 340 405
-rect 355 390 400 405
-rect 415 390 460 405
-rect 295 375 310 390
-rect 355 375 370 390
-rect 295 360 340 375
-rect 120 315 135 360
-rect 205 315 220 360
-rect 0 300 45 315
-rect 60 300 105 315
-rect 120 300 160 315
-rect 175 300 220 315
-rect 265 300 280 360
-rect 325 315 340 360
-rect 295 300 340 315
-rect 355 360 400 375
-rect 355 315 370 360
-rect 385 315 400 360
-rect 355 300 400 315
-rect 445 300 460 390
-rect 475 390 520 405
-rect 475 375 490 390
-rect 505 375 520 390
-rect 475 360 520 375
-rect 535 390 580 405
-rect 535 375 550 390
-rect 565 375 580 390
-rect 535 360 580 375
-rect 475 315 490 360
-rect 505 315 520 360
-rect 475 300 520 315
-rect 565 300 580 360
-rect 10 250 35 255
-rect 60 250 95 255
-rect 130 250 165 255
-rect 5 245 40 250
-rect 60 245 100 250
-rect 125 245 165 250
-rect 0 235 45 245
-rect 0 195 15 235
-rect 30 195 45 235
-rect 0 180 45 195
-rect 0 150 15 180
-rect 30 150 45 180
-rect 60 235 105 245
-rect 60 210 75 235
-rect 90 210 105 235
-rect 60 195 105 210
-rect 60 170 75 195
-rect 90 170 105 195
-rect 60 160 105 170
-rect 120 235 165 245
-rect 180 250 215 255
-rect 180 245 220 250
-rect 180 235 225 245
-rect 120 170 135 235
-rect 180 170 195 235
-rect 210 170 225 235
-rect 120 160 165 170
-rect 60 155 100 160
-rect 125 155 165 160
-rect 60 150 95 155
-rect 130 150 165 155
-rect 180 160 225 170
-rect 240 240 285 255
-rect 300 240 345 255
-rect 370 250 395 255
-rect 365 245 400 250
-rect 240 210 255 240
-rect 300 210 315 240
-rect 360 235 405 245
-rect 240 195 270 210
-rect 300 195 330 210
-rect 240 165 255 195
-rect 180 155 220 160
-rect 180 150 215 155
-rect 240 150 285 165
-rect 300 150 315 195
-rect 360 170 375 235
-rect 390 225 405 235
-rect 420 210 435 255
-rect 450 210 465 255
-rect 480 240 525 255
-rect 390 170 405 210
-rect 360 160 405 170
-rect 365 155 405 160
-rect 370 150 405 155
-rect 420 195 465 210
-rect 420 150 435 195
-rect 450 150 465 195
-rect 495 165 510 240
-rect 540 170 555 180
-rect 570 170 585 255
-rect 480 150 525 165
-rect 540 160 585 170
-rect 600 230 615 255
-rect 630 230 645 255
-rect 600 220 645 230
-rect 600 210 640 220
-rect 600 195 635 210
-rect 600 185 640 195
-rect 600 175 645 185
-rect 545 155 580 160
-rect 550 150 575 155
-rect 600 150 615 175
-rect 630 150 645 175
-rect 660 165 675 255
-rect 720 240 735 255
-rect 780 240 795 255
-rect 720 225 750 240
-rect 765 225 795 240
-rect 720 210 795 225
-rect 660 150 705 165
-rect 720 150 735 210
-rect 750 195 765 210
-rect 780 150 795 210
-rect 810 240 825 255
-rect 810 225 840 240
-rect 855 225 870 255
-rect 895 250 920 255
-rect 945 250 980 255
-rect 1015 250 1040 255
-rect 1065 250 1100 255
-rect 1135 250 1170 255
-rect 890 245 925 250
-rect 945 245 985 250
-rect 1010 245 1045 250
-rect 1065 245 1105 250
-rect 1130 245 1170 250
-rect 810 210 870 225
-rect 810 150 825 210
-rect 840 195 870 210
-rect 855 150 870 195
-rect 885 235 930 245
-rect 885 170 900 235
-rect 915 170 930 235
-rect 885 160 930 170
-rect 945 235 990 245
-rect 945 200 960 235
-rect 975 200 990 235
-rect 945 190 990 200
-rect 1005 235 1050 245
-rect 945 185 985 190
-rect 1005 185 1020 235
-rect 1035 185 1050 235
-rect 945 180 980 185
-rect 890 155 925 160
-rect 895 150 920 155
-rect 945 150 960 180
-rect 1005 160 1050 185
-rect 1010 155 1050 160
-rect 1015 150 1050 155
-rect 1065 235 1110 245
-rect 1065 220 1080 235
-rect 1095 220 1110 235
-rect 1065 210 1110 220
-rect 1125 235 1170 245
-rect 1185 240 1230 255
-rect 1125 215 1140 235
-rect 1125 210 1160 215
-rect 1065 205 1105 210
-rect 1125 205 1165 210
-rect 1065 200 1100 205
-rect 1130 200 1170 205
-rect 1065 185 1095 200
-rect 1135 195 1170 200
-rect 1065 180 1100 185
-rect 1065 175 1105 180
-rect 1065 165 1110 175
-rect 1155 170 1170 195
-rect 1065 150 1080 165
-rect 1095 150 1110 165
-rect 1125 160 1170 170
-rect 1125 155 1165 160
-rect 1125 150 1160 155
-rect 1200 150 1215 240
-rect 1245 170 1260 255
-rect 1275 170 1290 255
-rect 1305 205 1320 255
-rect 1335 205 1350 255
-rect 1305 195 1350 205
-rect 1365 205 1380 255
-rect 1395 205 1410 255
-rect 1425 205 1440 255
-rect 1455 230 1470 255
-rect 1485 230 1500 255
-rect 1455 220 1500 230
-rect 1515 220 1530 255
-rect 1545 220 1560 255
-rect 1575 240 1620 255
-rect 1605 220 1620 240
-rect 1460 210 1495 220
-rect 1515 210 1560 220
-rect 1600 215 1620 220
-rect 1595 210 1620 215
-rect 1365 195 1440 205
-rect 1465 195 1490 210
-rect 1520 200 1555 210
-rect 1590 205 1615 210
-rect 1585 200 1610 205
-rect 1310 180 1345 195
-rect 1370 180 1435 195
-rect 1460 185 1495 195
-rect 1525 190 1550 200
-rect 1580 195 1605 200
-rect 1575 190 1600 195
-rect 1245 160 1290 170
-rect 1315 165 1340 180
-rect 1375 165 1430 180
-rect 1455 175 1500 185
-rect 1250 155 1285 160
-rect 1255 150 1280 155
-rect 1320 150 1335 165
-rect 1380 150 1395 165
-rect 1410 150 1425 165
-rect 1455 150 1470 175
-rect 1485 150 1500 175
-rect 1530 150 1545 190
-rect 1575 185 1595 190
-rect 1575 165 1590 185
-rect 1575 150 1620 165
-rect 60 75 75 105
-rect 210 75 225 105
-rect 320 100 345 105
-rect 315 90 345 100
-rect 315 75 330 90
-rect 420 75 435 105
-rect 480 75 510 105
-rect 525 75 555 105
-rect 0 70 40 75
-rect 60 70 95 75
-rect 130 70 155 75
-rect 190 70 225 75
-rect 245 70 280 75
-rect 0 60 45 70
-rect 30 45 45 60
-rect 5 40 45 45
-rect 0 30 45 40
-rect 0 15 15 30
-rect 30 15 45 30
-rect 0 5 45 15
-rect 5 0 45 5
-rect 60 65 100 70
-rect 125 65 160 70
-rect 185 65 225 70
-rect 60 55 105 65
-rect 60 20 75 55
-rect 90 20 105 55
-rect 60 10 105 20
-rect 120 55 165 65
-rect 120 20 135 55
-rect 150 45 165 55
-rect 180 55 225 65
-rect 150 20 165 25
-rect 120 10 165 20
-rect 180 20 195 55
-rect 210 20 225 55
-rect 180 10 225 20
-rect 60 5 100 10
-rect 125 5 160 10
-rect 185 5 225 10
-rect 240 60 285 70
-rect 300 60 345 75
-rect 370 70 395 75
-rect 420 70 455 75
-rect 365 65 400 70
-rect 420 65 460 70
-rect 240 45 255 60
-rect 270 45 285 60
-rect 240 35 285 45
-rect 240 30 280 35
-rect 240 15 255 30
-rect 240 5 285 15
-rect 60 0 95 5
-rect 130 0 155 5
-rect 190 0 225 5
-rect 245 0 285 5
-rect 315 0 330 60
-rect 360 55 405 65
-rect 360 20 375 55
-rect 390 20 405 55
-rect 360 10 405 20
-rect 365 5 405 10
-rect 370 0 405 5
-rect 420 55 465 65
-rect 570 60 585 105
-rect 600 60 615 75
-rect 420 0 435 55
-rect 450 0 465 55
-rect 480 45 510 60
-rect 525 45 555 60
-rect 495 15 510 45
-rect 480 0 510 15
-rect 385 -15 405 0
-rect 540 -15 555 45
-rect 570 50 615 60
-rect 570 45 610 50
-rect 570 30 600 45
-rect 570 25 610 30
-rect 570 15 615 25
-rect 570 0 585 15
-rect 600 0 615 15
-rect 630 0 645 105
-rect 1125 75 1140 90
-rect 660 70 690 75
-rect 705 70 725 75
-rect 750 70 785 75
-rect 820 70 845 75
-rect 880 70 905 75
-rect 940 70 965 75
-rect 990 70 1025 75
-rect 1060 70 1095 75
-rect 660 65 730 70
-rect 750 65 790 70
-rect 815 65 850 70
-rect 875 65 910 70
-rect 935 65 970 70
-rect 990 65 1030 70
-rect 1055 65 1095 70
-rect 660 55 735 65
-rect 660 0 675 55
-rect 690 0 705 55
-rect 720 0 735 55
-rect 750 55 795 65
-rect 750 0 765 55
-rect 780 0 795 55
-rect 810 55 855 65
-rect 810 20 825 55
-rect 840 20 855 55
-rect 810 10 855 20
-rect 870 55 915 65
-rect 870 20 885 55
-rect 900 20 915 55
-rect 870 10 915 20
-rect 930 55 975 65
-rect 930 20 945 55
-rect 960 20 975 55
-rect 930 10 975 20
-rect 815 5 850 10
-rect 870 5 910 10
-rect 935 5 975 10
-rect 820 0 845 5
-rect 870 0 905 5
-rect 940 0 975 5
-rect 990 55 1035 65
-rect 990 0 1005 55
-rect 1020 45 1035 55
-rect 1050 60 1095 65
-rect 1110 60 1155 75
-rect 1050 45 1070 60
-rect 1050 40 1085 45
-rect 1055 35 1090 40
-rect 1060 30 1095 35
-rect 1075 15 1095 30
-rect 1050 10 1095 15
-rect 1050 5 1090 10
-rect 1050 0 1085 5
-rect 1125 0 1140 60
-rect 1170 20 1185 75
-rect 1200 20 1215 75
-rect 1170 10 1215 20
-rect 1230 30 1245 75
-rect 1260 30 1275 75
-rect 1230 15 1275 30
-rect 1290 20 1305 75
-rect 1320 20 1335 75
-rect 1350 20 1365 75
-rect 1380 55 1395 75
-rect 1410 55 1425 75
-rect 1380 45 1425 55
-rect 1385 30 1420 45
-rect 1235 10 1270 15
-rect 1290 10 1365 20
-rect 1175 5 1215 10
-rect 1180 0 1215 5
-rect 1245 0 1260 10
-rect 1295 5 1365 10
-rect 1300 0 1320 5
-rect 1335 0 1365 5
-rect 1380 20 1425 30
-rect 1380 0 1395 20
-rect 1410 0 1425 20
-rect 1440 20 1455 75
-rect 1470 20 1485 75
-rect 1500 60 1545 75
-rect 1520 45 1545 60
-rect 1515 40 1540 45
-rect 1510 35 1535 40
-rect 1505 30 1530 35
-rect 1440 10 1485 20
-rect 1445 5 1485 10
-rect 1450 0 1485 5
-rect 1500 15 1525 30
-rect 1500 0 1545 15
-rect 360 -20 405 -15
-rect 360 -25 400 -20
-rect 525 -25 555 -15
-rect 360 -30 395 -25
-rect 525 -30 550 -25
-rect 870 -30 885 0
-rect 960 -30 975 0
-rect 1465 -15 1485 0
-rect 1440 -20 1485 -15
-rect 1440 -25 1480 -20
-rect 1440 -30 1475 -25
+rect 0 900 1615 915
+use font_a  font_a_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 0 0 45 75
+use font_b  font_b_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 60 0 105 105
+use font_c  font_c_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 120 0 165 75
+use font_d  font_d_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 180 0 225 105
+use font_f  font_f_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 300 0 345 105
+use font_e  font_e_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 240 0 285 75
+use font_g  font_g_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 360 -30 405 75
+use font_h  font_h_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 420 0 465 105
+use font_j  font_j_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 525 -30 555 105
+use font_i  font_i_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 480 0 510 105
+use font_k  font_k_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 570 0 615 105
+use font_l  font_l_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 630 0 645 105
+use font_m  font_m_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 660 0 735 75
+use font_n  font_n_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 750 0 795 75
+use font_o  font_o_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 810 0 855 75
+use font_p  font_p_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 870 -30 915 75
+use font_q  font_q_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 930 -30 975 75
+use font_r  font_r_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 990 0 1035 75
+use font_s  font_s_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 1050 0 1095 75
+use font_t  font_t_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 1110 0 1155 90
+use font_u  font_u_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 1170 0 1215 75
+use font_v  font_v_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 1230 0 1275 75
+use font_w  font_w_0 lib/font-sky130
+timestamp 1598166646
+transform 1 0 0 0 1 450
+box 1290 0 1365 75
+use font_x  font_x_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 1380 0 1425 75
+use font_z  font_z_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 1500 0 1545 75
+use font_y  font_y_0 lib/font-sky130
+timestamp 1598177753
+transform 1 0 0 0 1 450
+box 1440 -30 1485 75
+use font_B  font_B_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 60 150 105 255
+use font_A  font_A_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 0 150 45 255
+use font_1  font_1_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 60 300 105 405
+use font_0  font_0_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 0 300 45 405
+use font_D  font_D_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 60 0 1 450
+box 120 150 165 255
+use font_C  font_C_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 120 150 165 255
+use font_F  font_F_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 300 150 345 255
+use font_E  font_E_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 240 150 285 255
+use font_3  font_3_0 lib/font-sky130
+timestamp 1598182472
+transform 1 0 0 0 1 450
+box 180 300 225 405
+use font_2  font_2_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 120 300 165 405
+use font_5  font_5_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 300 300 345 405
+use font_4  font_4_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 240 300 285 405
+use font_H  font_H_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 420 150 465 255
+use font_G  font_G_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 360 150 405 255
+use font_I  font_I_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 480 150 525 255
+use font_J  font_J_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 540 150 585 255
+use font_7  font_7_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 420 300 465 405
+use font_6  font_6_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 360 300 405 405
+use font_8  font_8_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 480 300 525 405
+use font_9  font_9_0 lib/font-sky130
+timestamp 1598182001
+transform 1 0 0 0 1 450
+box 540 300 585 405
+use font_semicolon  font_semicolon_0 lib/font-sky130
+timestamp 1598183786
+transform 1 0 0 0 1 0
+box 690 735 720 825
+use font_colon  font_colon_0 lib/font-sky130
+timestamp 1598183786
+transform 1 0 0 0 1 0
+box 645 750 675 825
+use font_K  font_K_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 600 150 645 255
+use font_M  font_M_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 720 150 795 255
+use font_L  font_L_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 660 150 705 255
+use font_N  font_N_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 810 150 870 255
+use font_.  font_._0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 -960 0 1 750
+box 1560 0 1590 30
+use font_P  font_P_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 945 150 990 255
+use font_O  font_O_0 lib/font-sky130
+timestamp 1598165416
+transform 1 0 0 0 1 450
+box 885 150 930 255
+use font_Q  font_Q_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1005 150 1050 255
+use font_R  font_R_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1065 150 1110 255
+use font_T  font_T_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1185 150 1230 255
+use font_S  font_S_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1125 150 1170 255
+use font_U  font_U_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1245 150 1290 255
+use font_W  font_W_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1365 150 1440 255
+use font_V  font_V_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1305 150 1350 255
+use font_X  font_X_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1455 150 1500 255
+use font_Z  font_Z_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1575 150 1620 255
+use font_Y  font_Y_0 lib/font-sky130
+timestamp 1598181805
+transform 1 0 0 0 1 450
+box 1515 150 1560 255
+use font_o  font_o_1
+timestamp 1598165416
+transform 1 0 -750 0 1 960
+box 810 0 855 75
+use font_F  font_F_1
+timestamp 1598181805
+transform 1 0 -300 0 1 810
+box 300 150 345 255
+use font_s  font_s_1
+timestamp 1598165416
+transform 1 0 -720 0 1 960
+box 1050 0 1095 75
+use font_colon  font_colon_1
+timestamp 1598183786
+transform 1 0 -405 0 1 210
+box 645 750 675 825
+use font_t  font_t_1
+timestamp 1598177753
+transform 1 0 -930 0 1 960
+box 1110 0 1155 90
+use font_n  font_n_1
+timestamp 1598165416
+transform 1 0 -630 0 1 960
+box 750 0 795 75
+use font_3  font_3_1
+timestamp 1598182472
+transform 1 0 390 0 1 660
+box 180 300 225 405
+use font_1  font_1_1
+timestamp 1598182001
+transform 1 0 450 0 1 660
+box 60 300 105 405
+use font_y  font_y_1
+timestamp 1598177753
+transform 1 0 -990 0 1 960
+box 1440 -30 1485 75
+use font_k  font_k_1
+timestamp 1598165416
+transform 1 0 -180 0 1 960
+box 570 0 615 105
+use font_0  font_0_1
+timestamp 1598182001
+transform 1 0 630 0 1 660
+box 0 300 45 405
 << end >>

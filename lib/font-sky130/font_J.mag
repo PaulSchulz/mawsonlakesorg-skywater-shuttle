@@ -1,0 +1,10 @@
+magic
+tech sky130A
+timestamp 1598181805
+<< metal1 >>
+rect 540 170 555 180
+rect 570 170 585 255
+rect 540 160 585 170
+rect 545 155 580 160
+rect 550 150 575 155
+<< end >>
