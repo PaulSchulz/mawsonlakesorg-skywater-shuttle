@@ -1,0 +1,17 @@
+magic
+tech sky130A
+timestamp 1598364576
+<< metal5 >>
+rect 0 100000 100200 100200
+rect 0 200 200 100000
+rect 100000 200 100200 100000
+rect 0 0 100200 200
+use font-sky130  font-sky130_0 magic
+timestamp 1598364576
+transform 1 0 1007 0 1 307
+box -195 420 2105 1065
+use open-source-hardware  open-source-hardware_0 magic
+timestamp 1597969098
+transform 1 0 300 0 1 405
+box 0 -105 615 555
+<< end >>
