@@ -1,8 +1,10 @@
 # Settings
 # Import into Magic with
 #   source magic/settings.tcl
-addpath "lib/font-sky130"
+addpath "libraries/sky130_ml_xx_hd/mag"
 addpath "magic"
+
+# Display the current path
 path
 
 grid on
@@ -16,4 +18,4 @@ view
 findbox zoom
 zoom 10
 
-getcell master
+load master

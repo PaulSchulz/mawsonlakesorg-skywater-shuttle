@@ -1,0 +1,3 @@
+[submodule "libraries/sky130_ml_xx_hd"]
+	path = libraries/sky130_ml_xx_hd
+	url = git@github.com:PaulSchulz/sky130_ml_xx_hd.git
