@@ -3,7 +3,7 @@
 import os.path
 
 debug = 1
-path = "lib/font-sky130/"
+path = "libraries/sky130_ml_xx_hd/mag/"
 
 text = """MawsonLakes.Org - Google + Skywater 130nm Shuttle
 Date: November 2020
@@ -16,7 +16,8 @@ SkyWater and Google's collaboration is now making this technology
 accessible to everyone!
 """
 
-copyright = """© Paul Schulz <paul@mawsonlakes.org>"""
+copyright = """© Paul Schulz <paul@mawsonlakes.org>
+License: Apache License Version 2.0"""
 
 characters = """ !"#$%&'()*+,-./
 0123456789:;<=>?

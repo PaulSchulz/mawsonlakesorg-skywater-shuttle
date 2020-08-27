@@ -102,6 +102,7 @@ Magic is installed, but it still needs to be configured to use the Sky150
 process and design rules. This is done in the next step.
 
 The tutorial files can be copied to the current directory with
+
 #+begin_src sh
   cp /usr/local/lib/magic/tutorials .
 #+end_src
@@ -260,6 +261,18 @@ general details are the same.
 A font for the SkyWater 130nm process has been created, called "font-sky130", as
 well as some logos, for use in the Google + SkyWater process.
 
+The font has been put into its own library in github, and has been included in
+this project as a submodule.
+
+To install elsewere:
+#+begin_src sh
+  git clone https://github.com/PaulSchulz/sky130_ml_xx_hd
+#+end_src
+and add the path to Magic, using
+#+begin_src 
+  % addpath path/to/sky130_ml_xx_hd/mag
+#+end_src
+
 Initially, font characters were based on a 7 high x 3 wide grid of 150x150nm
 'pixels' (In magic, these are represented by a 3x3 grid, where the grid size was
 0.05um). The larger characters ('M' and 'W') were based on a 7x7 grid, and the
@@ -267,4 +280,7 @@ smaller characters ('i' and 'l') were based on narrower grid with width 2.
 
 The design rules for the minimum area require that the dots on the 'i' and 'j'
 are 2x2 in size, and that the 'i' has 'serifs'.
+
+The cells are stored as 'cell_xx', where xx is the ASCII(Unicode) code for the
+particular character.
 
