@@ -1,0 +1,110 @@
+* Notes
+The following is a place to put notes on work being done, issues found,
+solutions being worked on etc.
+
+** Magic
+*** Issues / Debugging
+
+Issues has been experienced with Magic when trying to set the FIXED_BBOX
+parameter on a cell, and the origin.
+
+The aim was to set these parameters so that cells could be easily used to store
+font characters/glyphs with their widths, with the origin on the baseline of the
+character. It wasn't obvious how to do this correctly.
+
+The process that was found to work:
+#+begin_src text
+  open <filename>
+  snap grip
+  -- position box at origin --
+  snap int
+  box position
+  move origin <x> <y>
+
+  snap grid
+  -- position box for BBOX --
+  snap int
+  box position
+  box size
+  property FIXED_BBOX "<x1> <y1> <x2=x1+width> <y2=y1+height>"
+  save
+#+end_src
+Note 1: While the box parameters are given as x, y, width and height, the
+FIXED_BBOX parameters are given as corner coordinates - x1,y1,x2,y2.
+
+Note 2: When using FIXED_BBOX, need to use the commant 'snap int' (snap
+internal) so that coordinates are handled correctly. 'snap grid' is still used
+to position the box correctly.
+
+The cells are saved with the 'FIXED_BBOX' parameter, but it appears to be a bit
+of a hack, as it is required to be set as a string (with quotes) but is actually
+an array. This has been hacked in specifically for the 'FIXED_BBOX' parameter
+and also requires that the 'CDFIXEDBBOX' flag is set on the cell. (This flag is
+referred to as CD_FIXEDBBOX in the commit logs.)
+
+FIXED_BBOX appears in the code in the following locations
+#+begin_src 
+./database/DBcellsrch.c:1923:	propval = (char *)DBPropGet(cellDef, "FIXED_BBOX", &found);
+./database/DBcellsrch.c:1935:		DBPropPut(cellDef, "FIXED_BBOX", propval);
+./database/DBcellsrch.c:2132:	propval = (char *)DBPropGet(cellDef, "FIXED_BBOX", &found);
+./database/DBcellsrch.c:2144:		DBPropPut(cellDef, "FIXED_BBOX", propval);
+./database/DBprop.c:70:    /* Special handling of FIXED_BBOX, which uses CDFIXEDBBOX as a quick lookup */
+./database/DBprop.c:71:    if (!strcmp(name, "FIXED_BBOX"))
+./database/DBprop.c:218:    /* Since CDFIXEDBBOX requires a FIXED_BBOX property, clearing all	*/
+./database/DBio.c:1615:	    /* Also process FIXED_BBOX property, as units must match */
+./database/DBio.c:1617:	    if (!strcmp(propertyname, "FIXED_BBOX"))
+./database/DBio.c:2603:    /* NOTE:  FIXED_BBOX is treated specially;  values are database */
+./database/DBio.c:2607:    propvalue = (char *)DBPropGet(cellDef, "FIXED_BBOX", &propfound);
+./database/DBio.c:2626:	    DBPropPut(cellDef, "FIXED_BBOX", propscaled);
+./database/DBio.c:2637:    if (propfound) DBPropPut(cellDef, "FIXED_BBOX", propvalue);
+./select/selDisplay.c:322:	propval = (char *)DBPropGet(scx->scx_use->cu_def, "FIXED_BBOX", &found);
+./lef/defRead.c:851:	/* Abstract views with fixed bounding boxes use the FIXED_BBOX property */
+./lef/defRead.c:858:	    propval = DBPropGet(use->cu_def, "FIXED_BBOX", &found);
+./lef/lefWrite.c:342:		propvalue = (char *)DBPropGet(def, "FIXED_BBOX", &propfound);
+./lef/lefWrite.c:1248:    /* If a bounding box has been declared with the FIXED_BBOX property	*/
+./lef/lefWrite.c:1256:	propvalue = (char *)DBPropGet(def, "FIXED_BBOX", &found);
+./lef/lefRead.c:1925:	/* Define the FIXED_BBOX property to match the LEF macro */
+./lef/lefRead.c:1934:	    DBPropPut(lefMacro, "FIXED_BBOX", propval);
+./lef/lefRead.c:1948:	    DBPropPut(lefMacro, "FIXED_BBOX", propval);
+./lef/lefRead.c:1963:	    DBPropPut(lefMacro, "FIXED_BBOX", propval);
+./cif/CIFgen.c:4141:		    propvalue = (char *)DBPropGet(origDef, "FIXED_BBOX", &found);
+./cif/CIFrdcl.c:700:    /* layer, then the last one defines the FIXED_BBOX property.    */
+./cif/CIFrdcl.c:739:	propvalue = (char *)DBPropGet(cifReadCellDef, "FIXED_BBOX", &found);
+./cif/CIFrdcl.c:765:    DBPropPut(cifReadCellDef, "FIXED_BBOX", storedvalue);
+./cif/CIFint.h:133: * CIFOP_BOUNDARY -	Added 6/5/19---map the FIXED_BBOX property bounding
+./commands/CmdCD.c:3848:     * set, then used the property FIXED_BBOX to set the bounding box.
+./commands/CmdCD.c:3856:	propvalue = (char *)DBPropGet(def, "FIXED_BBOX", &found);
+#+end_src
+
+CDFIXEDBBOX appears in the following locations
+#+begin_src 
+./database/DBcellsrch.c:1917:    if ((cellDef->cd_flags & CDFIXEDBBOX) != 0)
+./database/DBcellsrch.c:2126:    if ((cellDef->cd_flags & CDFIXEDBBOX) != 0)
+./database/DBprop.c:70:    /* Special handling of FIXED_BBOX, which uses CDFIXEDBBOX as a quick lookup */
+./database/DBprop.c:74:	    cellDef->cd_flags &= ~CDFIXEDBBOX;
+./database/DBprop.c:76:	    cellDef->cd_flags |= CDFIXEDBBOX;
+./database/DBprop.c:218:    /* Since CDFIXEDBBOX requires a FIXED_BBOX property, clearing all	*/
+./database/DBprop.c:220:    cellDef->cd_flags &= ~CDFIXEDBBOX;
+./database/database.h:383: *	CDFIXEDBBOX means that this cell has been declared to be a
+./database/database.h:416:#define CDFIXEDBBOX	 0x0080
+./database/database.h.in:383: *	CDFIXEDBBOX means that this cell has been declared to be a
+./database/database.h.in:416:#define CDFIXEDBBOX	 0x0080
+./database/DBio.c:1648:		    cellDef->cd_flags |= CDFIXEDBBOX;
+./select/selDisplay.c:317:    if (scx->scx_use->cu_def->cd_flags & CDFIXEDBBOX)
+./lef/defRead.c:853:	if (use->cu_def->cd_flags & CDFIXEDBBOX)
+./lef/lefWrite.c:340:	    if (siteDef->cd_flags & CDFIXEDBBOX)
+./lef/lefWrite.c:1251:    if (def->cd_flags & CDFIXEDBBOX)
+./lef/lefRead.c:1929:	    lefMacro->cd_flags |= CDFIXEDBBOX;
+./lef/lefRead.c:1943:	    lefMacro->cd_flags |= CDFIXEDBBOX;
+./lef/lefRead.c:1956:	    lefMacro->cd_flags |= CDFIXEDBBOX;
+./cif/CIFgen.c:4136:		if (origDef && (origDef->cd_flags & CDFIXEDBBOX))
+./cif/CIFrdcl.c:731:    if (cifReadCellDef->cd_flags & CDFIXEDBBOX)
+./cif/CIFrdcl.c:766:    cifReadCellDef->cd_flags |= CDFIXEDBBOX;
+./commands/CmdCD.c:3847:     * Get def's bounding box.  If def is an abstract view with CDFIXEDBBOX
+./commands/CmdCD.c:3851:    if (def->cd_flags & CDFIXEDBBOX)
+#+end_src
+
+*** Writing Cells to file
+To write cell properties out to file, the properties are enumerated, and a
+function which writes out the formated data is called.
+

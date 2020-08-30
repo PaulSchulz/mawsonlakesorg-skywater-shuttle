@@ -1,17 +1,17 @@
 magic
 tech sky130A
-timestamp 1598433283
+timestamp 1598685393
 << metal5 >>
-rect 0 100000 100200 100200
-rect 0 200 200 100000
-rect 100000 200 100200 100000
-rect 0 0 100200 200
-use font-sky130  font-sky130_0
-timestamp 1598433283
-transform 1 0 1495 0 1 835
-box -195 420 2105 1065
+rect -1495 98565 98705 98765
+rect -1495 -1235 -1295 98565
+rect 98505 -1235 98705 98565
+rect -1495 -1435 98705 -1235
+use font-sky130  font-sky130_0 ~/Documents/git/mawsonlakesorg-skywater-shuttle/magic
+timestamp 1598532849
+transform 1 0 0 0 1 -600
+box -195 420 2105 855
 use open-source-hardware  open-source-hardware_0
 timestamp 1597969098
-transform 1 0 300 0 1 405
+transform 1 0 -1195 0 1 -1030
 box 0 -105 615 555
 << end >>

@@ -18,4 +18,4 @@ view
 findbox zoom
 zoom 10
 
-load master
+#load master
