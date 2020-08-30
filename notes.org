@@ -14,8 +14,8 @@ character. It wasn't obvious how to do this correctly.
 
 The process that was found to work:
 #+begin_src text
-  open <filename>
-  snap grip
+  load <cell>
+  snap grid
   -- position box at origin --
   snap int
   box position
@@ -35,6 +35,22 @@ FIXED_BBOX parameters are given as corner coordinates - x1,y1,x2,y2.
 Note 2: When using FIXED_BBOX, need to use the commant 'snap int' (snap
 internal) so that coordinates are handled correctly. 'snap grid' is still used
 to position the box correctly.
+
+A little more precisely:
+#+begin_src text
+  load <cell>
+  snap grid
+  -- position box at origin --
+  snap int
+  move origin [lindex [box pos] 0] [lindex [box pos] 1]
+  # Check origin has been moved correctly.
+  box pos 0 0
+  property FIXED_BBOX "0 -60 120 210"
+  save
+#+end_src
+
+Issue: The 'move origin' command does not change the coordinate of the box, which will
+move when this command is run. 
 
 The cells are saved with the 'FIXED_BBOX' parameter, but it appears to be a bit
 of a hack, as it is required to be set as a string (with quotes) but is actually
