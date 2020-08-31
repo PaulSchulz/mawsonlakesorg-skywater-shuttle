@@ -1,0 +1,220 @@
+magic
+tech sky130A
+timestamp 1598838553
+use font_62  font_62_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775406
+transform 1 0 105 0 1 30
+box 0 0 45 105
+use font_61  font_61_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775307
+transform 1 0 45 0 1 30
+box 0 0 45 75
+use font_63  font_63_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598836169
+transform 1 0 165 0 1 30
+box 0 0 45 75
+use font_65  font_65_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775915
+transform 1 0 285 0 1 30
+box 0 0 45 75
+use font_64  font_64_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775833
+transform 1 0 225 0 1 30
+box 0 0 45 105
+use font_66  font_66_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775974
+transform 1 0 345 0 1 30
+box 0 0 45 105
+use font_68  font_68_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776130
+transform 1 0 465 0 1 30
+box 0 0 45 105
+use font_67  font_67_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776042
+transform 1 0 405 0 1 30
+box 0 -30 45 75
+use font_69  font_69_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776260
+transform 1 0 525 0 1 30
+box 0 0 30 105
+use font_6C  font_6C_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776550
+transform 1 0 675 0 1 30
+box 0 0 15 105
+use font_6B  font_6B_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776472
+transform 1 0 615 0 1 30
+box 0 0 45 105
+use font_6A  font_6A_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776399
+transform 1 0 570 0 1 30
+box 0 -30 30 105
+use font_6D  font_6D_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776905
+transform 1 0 705 0 1 30
+box 0 0 75 75
+use font_6F  font_6F_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777049
+transform 1 0 855 0 1 30
+box 0 0 45 75
+use font_6E  font_6E_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598776997
+transform 1 0 795 0 1 30
+box 0 0 45 75
+use font_72  font_72_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777237
+transform 1 0 1035 0 1 30
+box 0 0 45 75
+use font_71  font_71_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777186
+transform 1 0 975 0 1 30
+box 0 -30 45 75
+use font_70  font_70_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777090
+transform 1 0 915 0 1 30
+box 0 -30 45 75
+use font_74  font_74_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777367
+transform 1 0 1155 0 1 30
+box 0 0 45 90
+use font_73  font_73_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777283
+transform 1 0 1095 0 1 30
+box 0 0 45 75
+use font_76  font_76_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777472
+transform 1 0 1275 0 1 30
+box 0 0 45 75
+use font_75  font_75_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777411
+transform 1 0 1215 0 1 30
+box 0 0 45 75
+use font_77  font_77_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777679
+transform 1 0 1335 0 1 30
+box 0 0 75 75
+use font_78  font_78_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777815
+transform 1 0 1425 0 1 30
+box 0 0 45 75
+use font_79  font_79_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777870
+transform 1 0 1485 0 1 30
+box 0 -30 45 75
+use font_7A  font_7A_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777896
+transform 1 0 1545 0 1 30
+box 0 0 45 75
+use font_40  font_40_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598773327
+transform 1 0 0 0 1 195
+box 0 -30 105 105
+use font_60  font_60_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775086
+transform 1 0 0 0 1 30
+box 0 60 30 105
+use font_42  font_42_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598763267
+transform 1 0 180 0 1 195
+box 0 0 45 105
+use font_41  font_41_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598763107
+transform 1 0 120 0 1 195
+box 0 0 45 105
+use font_44  font_44_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598763661
+transform 1 0 300 0 1 195
+box 0 0 45 105
+use font_43  font_43_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598763351
+transform 1 0 240 0 1 195
+box 0 0 45 105
+use font_45  font_45_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598765099
+transform 1 0 360 0 1 195
+box 0 0 45 105
+use font_47  font_47_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598765398
+transform 1 0 480 0 1 195
+box 0 0 45 105
+use font_46  font_46_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598765253
+transform 1 0 420 0 1 195
+box 0 0 45 105
+use font_48  font_48_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598765560
+transform 1 0 540 0 1 195
+box 0 0 45 105
+use font_4A  font_4A_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598766195
+transform 1 0 660 0 1 195
+box 0 0 45 105
+use font_49  font_49_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598765816
+transform 1 0 600 0 1 195
+box 0 0 45 105
+use font_4C  font_4C_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598766404
+transform 1 0 780 0 1 195
+box 0 0 45 105
+use font_4B  font_4B_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598766293
+transform 1 0 720 0 1 195
+box 0 0 45 105
+use font_4D  font_4D_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598766505
+transform 1 0 840 0 1 195
+box 0 0 75 105
+use font_4E  font_4E_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598766739
+transform 1 0 930 0 1 195
+box 0 0 60 105
+use font_50  font_50_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768087
+transform 1 0 1065 0 1 195
+box 0 0 45 105
+use font_4F  font_4F_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598767855
+transform 1 0 1005 0 1 195
+box 0 0 45 105
+use font_51  font_51_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768325
+transform 1 0 1125 0 1 195
+box 0 0 45 105
+use font_53  font_53_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768855
+transform 1 0 1245 0 1 195
+box 0 0 45 105
+use font_52  font_52_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768719
+transform 1 0 1185 0 1 195
+box 0 0 45 105
+use font_55  font_55_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768967
+transform 1 0 1365 0 1 195
+box 0 0 45 105
+use font_54  font_54_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768910
+transform 1 0 1305 0 1 195
+box 0 0 45 105
+use font_56  font_56_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598769117
+transform 1 0 1425 0 1 195
+box 0 0 45 105
+use font_57  font_57_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598769216
+transform 1 0 1485 0 1 195
+box 0 0 75 105
+use font_59  font_59_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598769811
+transform 1 0 1635 0 1 195
+box 0 0 45 105
+use font_58  font_58_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598769277
+transform 1 0 1575 0 1 195
+box 0 0 45 105
+use font_5A  font_5A_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598772956
+transform 1 0 1695 0 1 195
+box 0 0 45 105
+<< end >>

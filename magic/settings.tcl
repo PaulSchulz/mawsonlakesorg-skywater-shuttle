@@ -1,7 +1,7 @@
 # Settings
 # Import into Magic with
 #   source magic/settings.tcl
-addpath "libraries/sky130_ml_xx_hd/mag"
+addpath "libraries/sky130_pschulz_xx_hd/mag"
 addpath "magic"
 
 # Display the current path
