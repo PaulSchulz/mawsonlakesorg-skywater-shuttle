@@ -1,0 +1,49 @@
+* Data files
+** Chapter 1 of 'War of the Worlds' - war-of-the-worlds.txt
+Obtained from:
+  https://en.wikisource.org/wiki/The_War_of_the_Worlds/Book_1/Chapter_1
+
+The original book was published in England in 1898, and has since passed into
+the public domain.
+
+See: https://en.wikipedia.org/wiki/The_War_of_the_Worlds
+  
+** The Elements Song - the-elements.txt
+This file contains the lyrics of the song - "The Elements" - by Tom Lehrer.
+
+It was released into the public domain via the website -
+https://tomlehrersongs.com/ - with the following statement.
+
+#+begin_src  text
+  DISCLAIMER STATEMENT
+
+  I, Tom Lehrer, and the Tom Lehrer Trust 2000, hereby grant the following
+  permission:
+
+  All the lyrics on this website, whether published or unpublished, copyrighted
+  ior uncopyrighted, may be downloaded and used in any manner whatsoever, without
+  requiring any further permission from me or any payment to me or to anyone else.
+
+  Some lyrics written by me to copyrighted music by others are included herein,
+  but of course such music may not be used without permission of the copyright
+  owners. (The translated songs may be found in their original languages on
+  YouTube.)
+
+  The music of all the songs on this website that were written by me may also be
+  downloaded and used as described above.
+
+  In other words, all the lyrics herein and all the music herein that was written
+  by me should be treated as though they were in the public domain.
+
+  In particular, permission is hereby granted to anyone to set any of these lyrics
+  to their own music and publish or perform their versions or parodies or
+  distortions of these lyrics without fear of legal action.
+
+  (There is no legal way to unilaterally transfer a song into the public domain,
+  so this disclaimer is intended as an end run around the copyright laws.)
+
+  Note: This website will be shut down on December 31, 2024, so if you want to
+  download anything, don’t wait too long
+#+end_src
+
+** Mr Babbage's Difference Engine - babbage.txt
