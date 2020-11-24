@@ -3,7 +3,10 @@ The following is a place to put notes on work being done, issues found,
 solutions being worked on etc.
 
 ** Magic
-*** Issues / Debugging
+*** Issues with FIXED_BBOX
+
+TL;DR - 'snap int' is required to ensure that FIXED_BBOX values are handled
+properly.
 
 Issues has been experienced with Magic when trying to set the FIXED_BBOX
 parameter on a cell, and the origin.
@@ -57,6 +60,8 @@ of a hack, as it is required to be set as a string (with quotes) but is actually
 an array. This has been hacked in specifically for the 'FIXED_BBOX' parameter
 and also requires that the 'CDFIXEDBBOX' flag is set on the cell. (This flag is
 referred to as CD_FIXEDBBOX in the commit logs.)
+
+**** Magic Code
 
 FIXED_BBOX appears in the code in the following locations
 #+begin_src 

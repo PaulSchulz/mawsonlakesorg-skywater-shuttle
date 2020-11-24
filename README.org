@@ -235,6 +235,13 @@ $ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 #+end_src
 
+** Skywater 130nm Font Library
+
+See: https://github.com/PaulSchulz/sky130_pschulz_xx_hd
+
+A font library has been created, so that text can be rendered in the silicon
+wafer production process.
+
 ** Targets and Building
    
 The Makefile has been configured with the following targets:
