@@ -226,6 +226,15 @@ efabless/caravel architecture, including any local modifications.
 NOTE: Please be aware that 'docker' is not available for Ubuntu 20.10. Currently
 looking for a suitable workaround.
 
+Install with the instructions from Docker website:
+  https://docs.docker.com/engine/install/ubuntu/
+
+Use the packages from Ubuntu "20.04" (focal), eg.
+#+begin_src sh
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+#+end_src
+
 ** Targets and Building
    
 The Makefile has been configured with the following targets:
