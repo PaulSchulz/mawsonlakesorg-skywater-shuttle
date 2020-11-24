@@ -199,6 +199,42 @@ Then open a browser to 'open-source-hardware.html'
   chromium-browser open-source-hardware.html
 #+end_src
 
+*** logo-to-gds2
+
+Tool to create logos for ASICs. Turns SVGs or PNGs into GDS2
+and LEF files for use on top metal of ASICs for artwork.
+
+Available here: https://github.com/s-holst/GDS2WebGL
+
+This tool is also a useful example for processing files with a Makefile.
+
+*** caravel - SoC template
+
+A template SoC for Google SKY130 free shuttles.
+
+Available here: https://github.com/efabless/caravel
+
+#+begin_src sh
+git clone https://github.com/efabless/caravel.git
+#+end_src
+
+*** docker 
+
+Container software used to distribute the build and testing tools for the
+efabless/caravel architecture, including any local modifications.
+
+NOTE: Please be aware that 'docker' is not available for Ubuntu 20.10. Currently
+looking for a suitable workaround.
+
+Install with the instructions from Docker website:
+  https://docs.docker.com/engine/install/ubuntu/
+
+Use the packages from Ubuntu "20.04" (focal), eg.
+#+begin_src sh
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+#+end_src
+
 ** Targets and Building
    
 The Makefile has been configured with the following targets:
@@ -284,3 +320,16 @@ are 2x2 in size, and that the 'i' has 'serifs'.
 The cells are stored as 'cell_xx', where xx is the ASCII(Unicode) code for the
 particular character.
 
+*** Building Caravel
+
+Install the caravel code by cloning the efebless/caravel github repository.
+#+begin_src sh
+git clone https://github.com/efabless/caravel.git
+#+end_src 
+
+The README.md defines the initial setup. Other than the Management System on a
+Chip (SoC), the customizable area has been preconfigured with a 32-bit up
+counter.
+
+To build and run test locally, there is a 'docker' image available which can be
+used.
