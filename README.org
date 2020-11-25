@@ -9,11 +9,14 @@ The specific design and purpose for this ASIC is still a work in progress.
 
 ** Tools / Installation
 
-These files were created using software installed on Ubuntu (most recent -
-20.04.1).
+These comments are based on installations on Ubuntu (most recent -
+20.10).
 
 Most of these tools are hosted by 'efabless'. For more information, see:
 http://opencircuitdesign.com
+
+For a useful quick-start script that installs most of the tools required, see:
+https://github.com/mabrains/sky130_ubuntu_setup
 
 *** Open PDKS (part 1)
 
