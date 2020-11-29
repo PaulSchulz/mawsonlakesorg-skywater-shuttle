@@ -1,0 +1,44 @@
+magic
+tech sky130A
+timestamp 1606196619
+use font_54  font_54_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598768910
+transform 1 0 0 0 1 0
+box 0 0 45 105
+use font_65  font_65_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598775915
+transform 1 0 60 0 1 0
+box 0 0 45 75
+use font_73  font_73_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777283
+transform 1 0 120 0 1 0
+box 0 0 45 75
+use font_74  font_74_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598777367
+transform 1 0 180 0 1 0
+box 0 0 45 90
+use font_2E  font_2E_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598786878
+transform 1 0 240 0 1 0
+box 0 0 30 30
+use font_2E  font_2E_1
+timestamp 1598786878
+transform 1 0 285 0 1 0
+box 0 0 30 30
+use font_2E  font_2E_2
+timestamp 1598786878
+transform 1 0 330 0 1 0
+box 0 0 30 30
+use font_21  font_21_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598785613
+transform 1 0 375 0 1 0
+box 0 0 30 105
+use font_21  font_21_1
+timestamp 1598785613
+transform 1 0 420 0 1 0
+box 0 0 30 105
+use font_3F  font_3F_0 libraries/sky130_pschulz_xx_hd/mag
+timestamp 1598787703
+transform 1 0 465 0 1 0
+box 0 0 45 105
+<< end >>

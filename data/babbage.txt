@@ -75,7 +75,7 @@ also various other tables for facilitating the several calculations which are
 constantly required in mathematical and physical investigations. I shall allude
 to each of these in their order.
 
-1o. Tables of the products of numbers. The numerous tables of this species which
+1. Tables of the products of numbers. The numerous tables of this species which
 have been published at various time, and in different countries, sufficiently
 attest their utility and importance: and there can be no doubt that, if their
 accuracy were undeniable, their employment would be much more frequent. One of
@@ -106,7 +106,7 @@ necessary merely to put into the machine, at the end of every two pages, the
 number whose multiples are required. This number will be successively 1, 2, 3
 etc… to 500.
 
-2o. Tables of Square Numbers. The squares of all numbers, as far as 1000, were a
+2. Tables of Square Numbers. The squares of all numbers, as far as 1000, were a
 long time ago published on the continent by M. Lambert. These have been since
 extended as far as the square of 10000 by Mr. Barlow of the Royal Military
 Academy at Woolwich. The Board of Longitude employed the late Dr. Hutton to
@@ -118,14 +118,14 @@ numbers in succession without interruption. This is, in fact, one of those
 tables which the engine already made is capable of computing, as far as its
 limited number of wheels will admit.
 
-3o. Tables of Cube Numbers. Tables of this kind have likewise been already
+3. Tables of Cube Numbers. Tables of this kind have likewise been already
 computed by Mr. Lambert and Mr. Barlow; and also by the late Dr. Hutton, by
 order of the Board of Longitude. In computing such a table by the machine, the
 whole of the mental labour would be in this case also saved: since it would be
 merely necessary to place in the machine the numbers 1, 7, 6, 6; and it would
 then produce in succession all the cube numbers.
 
-4o. Tables of the higher Powers of Numbers. The Board of Longitude employed Dr.
+4. Tables of the higher Powers of Numbers. The Board of Longitude employed Dr.
 Hutton also to construct a limited table of this kind; which should contain the
 first ten powers of all numbers from 1 to 100. And Mr. Barlow has published, in
 his collection, a table of the fourth and fifth powers of numbers between 100
@@ -136,13 +136,13 @@ computer about ten minutes for each power. In fact the computation of these few
 fundamental figures would not occupy so much time, nor be so liable to error, as
 the calculation of one of the tabular numbers, according to the usual method.
 
-5o. Tables of the Square Roots and Cube Roots of Numbers. A table of the first
+5. Tables of the Square Roots and Cube Roots of Numbers. A table of the first
 kind has been given by Mr. Lambert: and a more extended one by Mr. Barlow, in
 his Collection. The latter writer constructed his table by means of differences;
 ane advantage which may be applied with greater effect to the table of Cube
 Roots, on account of the greater convergency of this order of differences.
 
-6o. Tables of the Reciprocals of Numbers. These are amongst the most simple but
+6. Tables of the Reciprocals of Numbers. These are amongst the most simple but
 most useful of arithmetical tables; and are peculiarly valuable in converting
 various series into numbers, — thus facilitating the calculation of differences
 for the more ready construction of other tables. In order, however, to be
@@ -150,7 +150,7 @@ employed in such operations, it is absolutely necessary that they should be
 infallible. Several tables of this kind have been printed: the most recent and
 extensive of which are those of Mr. Barlow, and Mr. Goodwin.
 
-7o. Tables of Natural Sines, Cosines, Tangents etc. The utility of tables of
+7. Tables of Natural Sines, Cosines, Tangents etc. The utility of tables of
 this kind is evident from the variety of forms in which they have been, from
 time to time, printed: and it is needleſs to insist on their importance at the
 present day, since no seaman dare venture out of sight of land without a
@@ -165,7 +165,7 @@ science. It would be difficult to state precisely the quantity of mental labour
 saved by the machine, in constructing tables of this kind; but, I believe, it
 may be facily reduced to the two thousandth part of the whole.
 
-8o. Tables of the Logarithms of Numbers. Tables of this kind are in the hands of
+8. Tables of the Logarithms of Numbers. Tables of this kind are in the hands of
 every person engaged in numerical investigations: and it is needleſs to dwell on
 their utility et importance. The logarithms of numbers from 1 to 108000 have
 been already computed, with a greater or leſs number of figures; but this has
@@ -191,13 +191,13 @@ an hour to compute each set of differences; particularly as the higher numbers
 require very little labour, two or three terms of the series being quite
 sufficient.
 
-9o. Tables of Logarithmic Sines, Cosines, Tangents et Cotangents. The remarks
+9. Tables of Logarithmic Sines, Cosines, Tangents et Cotangents. The remarks
 which have been made in the preceding article, will apply with nearly equal
 propriety to the tables here alluded to. The mental labour required for the
 construction by the machine is reduced to a very insignificant quantity, when
 compared with the prodigious labour employed in the usual way.
 
-10o. Tables of Hyperbolic Logarithms. Some small tables of this kind have been
+10. Tables of Hyperbolic Logarithms. Some small tables of this kind have been
 printed in several works, and are useful in various integrations: but the most
 comprehensive set was computed by Mr. Barlow, which contains the hyperbolic
 logarithms of all numbers from 1 to 10000. The labour of computing them is very
@@ -206,14 +206,14 @@ examination of the subject, it would appear that the mental labour may, in this
 case, be reduced by the machine to about a two hundredth part of what was
 formerly necessary.
 
-11o. Tables for finding the Logarithms of the sum or difference of two
+11. Tables for finding the Logarithms of the sum or difference of two
 quantities, each of whose logarithms is given. This table, which was first
 suggested, by Mr. Gauſs, has been printed in at least three different forms. It
 is extremely convenient when many similar operations are required: the whole of
 it was computed by the method of differences; and consequently nearly the whole
 of the labour may be saved by the help of the machine.
 
-12o. Other general tables might also be here mentioned, which have been of great
+12. Other general tables might also be here mentioned, which have been of great
 service in various mathematical investigations, and have been computed and
 printed, by different authors: such as tables of the powers of ·01, ·02, ·03,
 etc.: tables of the squares of the natural sines, cosines, tangents etc.: tables
@@ -403,15 +403,16 @@ the multiplier as well as the multiplicand may be decimal. A machine possessing
 five axes (similar to the one now constructing) would tabulate, according to the
 peculiar arrangement, any of the following equations
 
-{\displaystyle \bigtriangleup ^{5}u_{3}=au_{3+1}}￼	{\displaystyle \bigtriangleup ^{5}u_{3}=au_{3+2}}￼
-{\displaystyle \bigtriangleup ^{5}u_{3+1}=au_{3}+\bigtriangleup ^{4}u_{3}}￼	{\displaystyle \bigtriangleup ^{5}u_{3+1}=a\bigtriangleup ^{2}u_{3+1}+\bigtriangleup ^{4}u_{3}}￼
+{\displaystyle \bigtriangleup ^{5}u_{3}=au_{3+1}}  {\displaystyle \bigtriangleup ^{5}u_{3}=au_{3+2}}￼
+{\displaystyle \bigtriangleup ^{5}u_{3+1}=au_{3}+\bigtriangleup ^{4}u_{3}}  {\displaystyle \bigtriangleup ^{5}u_{3+1}=a\bigtriangleup ^{2}u_{3+1}+\bigtriangleup ^{4}u_{3}}
+
 If the machine possessed only three axes, the following series, amongst others, might be tabulated
 
-{\displaystyle \bigtriangleup ^{2}u_{3+1}=a\bigtriangleup u_{3}+\bigtriangleup ^{2}u_{3}}￼	{\displaystyle \bigtriangleup ^{3}u_{3}=au_{3}}￼
+{\displaystyle \bigtriangleup ^{2}u_{3+1}=a\bigtriangleup u_{3}+\bigtriangleup ^{2}u_{3}}  {\displaystyle \bigtriangleup ^{3}u_{3}=au_{3}}
 
 If there were but two axes, we might tabulate
 
-{\displaystyle \bigtriangleup ^{2}u_{3}=au_{3+1}}￼
+{\displaystyle \bigtriangleup ^{2}u_{3}=au_{3+1}}
 
 These equations appear to be restricted; and so they certainly are. But, since
 they can be computed and printed by machinery, of no very great complication,

@@ -330,6 +330,44 @@ are 2x2 in size, and that the 'i' has 'serifs'.
 The cells are stored as 'cell_xx', where xx is the ASCII(Unicode) code for the
 particular character.
 
+Explicitly
+#+begin_export ascii
+./libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
+  < data/skywater.txt \
+  > magic/skywater.tcl
+#+end_export
+This can be run via the Makefile, with 'make'
+
+The following currently needs to be run manually, until I figure out how to
+atomate this process. There is an issue with requiring the screen when positioning
+the glyphs.
+
+#+begin_src 
+  magic magic/skywater.mag
+    source tcl/skywater.tcl
+    gds write gds/skywater
+
+  magic magic/babbage.mag
+    source tcl/babbage.tcl
+    gds write gds/babbage
+
+  magic magic/the-elements.mag
+    source tcl/the-elements.tcl
+    gds write gds/the-elements
+
+  magic magic/war-of-the-worlds.mag
+    source tcl/war-of-the-worlds.tcl
+    gds write gds/war-of-the-worlds
+#+end_src
+Then in magic
+#+begin_export ascii
+  path .:libraries/sky130_pschulz_xx_hd/mag:magic
+  source magic/skywater.tcl
+
+#+end_export
+
+
+
 *** Building Caravel
 
 Install the caravel code by cloning the efebless/caravel github repository.
