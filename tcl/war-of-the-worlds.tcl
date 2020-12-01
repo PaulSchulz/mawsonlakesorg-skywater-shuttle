@@ -1,4 +1,6 @@
 path .:libraries/sky130_pschulz_xx_hd/mag
+
+select top cell
 snap int
 box position 0 0
 
@@ -260,7 +262,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -530,7 +532,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -1766,7 +1768,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -3128,7 +3130,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -4332,7 +4334,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -5200
 
@@ -5364,7 +5366,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -5724,7 +5726,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -6400
 
@@ -6208,7 +6210,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -6364,7 +6366,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -6816,7 +6818,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -7080,7 +7082,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -7310,7 +7312,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -8114,7 +8116,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -8324,7 +8326,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -8620,7 +8622,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # 0
 pushbox
@@ -8644,7 +8646,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # 0
 pushbox
@@ -8704,7 +8706,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -9342,7 +9344,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -9584,7 +9586,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -9716,7 +9718,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -11306,7 +11308,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -11600
 
@@ -11810,7 +11812,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -11990,7 +11992,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -12086,7 +12088,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -12358,7 +12360,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -12792,7 +12794,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -12900,7 +12902,7 @@ box move r 60
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -13490,7 +13492,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -13780,7 +13782,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -13936,7 +13938,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -15452,7 +15454,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -16424,7 +16426,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -16832,7 +16834,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -17772,7 +17774,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -18008,7 +18010,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -18786,7 +18788,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -18924,7 +18926,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -19238,7 +19240,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -19670,7 +19672,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -20000
 
@@ -19726,7 +19728,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -19876,7 +19878,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -19930,7 +19932,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # 0
 pushbox
@@ -19954,7 +19956,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # 0
 pushbox
@@ -20128,7 +20130,7 @@ box move r 180
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -20268,7 +20270,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -20406,7 +20408,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -20660,7 +20662,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -20948,7 +20950,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -21532,7 +21534,7 @@ box move r 180
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -21600
 
@@ -21712,7 +21714,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -21940,7 +21942,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -22982,7 +22984,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -23634,7 +23636,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -23892,7 +23894,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -24422,7 +24424,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -24800
 
@@ -24466,7 +24468,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -25728,7 +25730,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -25866,7 +25868,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -26108,7 +26110,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -26402,7 +26404,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -26602,7 +26604,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -27156,7 +27158,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -29334,7 +29336,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -30128,7 +30130,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -30800
 
@@ -30190,7 +30192,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -31946,7 +31948,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -32132,7 +32134,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -32288,7 +32290,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -33410,7 +33412,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -33632,7 +33634,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -33988,7 +33990,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -34108,7 +34110,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -34990,7 +34992,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -36000
 
@@ -36196,7 +36198,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -36328,7 +36330,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -36528,7 +36530,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -36726,7 +36728,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -36834,7 +36836,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -37810,7 +37812,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -38400
 
@@ -38112,7 +38114,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -38936,7 +38938,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -40194,7 +40196,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -40352,7 +40354,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -40664,7 +40666,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -41596,7 +41598,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -42066,7 +42068,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -42506,7 +42508,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -42826,7 +42828,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -43126,7 +43128,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -43476,7 +43478,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -43796,7 +43798,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -43982,7 +43984,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -44078,7 +44080,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -44476,7 +44478,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -44658,7 +44660,7 @@ box move r 60
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -44898,7 +44900,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -45308,7 +45310,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -45748,7 +45750,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -46780,7 +46782,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -46938,7 +46940,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -48374,7 +48376,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -48446,7 +48448,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -48656,7 +48658,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -48904,7 +48906,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -50024,7 +50026,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -50236,7 +50238,7 @@ box move r 60
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -50664,7 +50666,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -51018,7 +51020,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -52000
 
@@ -51236,7 +51238,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -52336,7 +52338,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -52366,7 +52368,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -52968,7 +52970,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -53214,7 +53216,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -54400
 
@@ -53456,7 +53458,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -53618,7 +53620,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -53974,7 +53976,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -54046,7 +54048,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -54216,7 +54218,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -54432,7 +54434,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -54692,7 +54694,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -55598,7 +55600,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 box position 0 -57200
 
@@ -56328,7 +56330,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -56894,7 +56896,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -57262,7 +57264,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -57660,7 +57662,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -57786,7 +57788,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -58432,7 +58434,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -58636,7 +58638,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -59150,7 +59152,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -60114,7 +60116,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -61552,7 +61554,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # "
 pushbox
@@ -62018,7 +62020,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -62110,7 +62112,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -62272,7 +62274,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -62410,7 +62412,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -63592,7 +63594,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -63960,7 +63962,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -64086,7 +64088,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -65016,7 +65018,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -65210,7 +65212,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -65252,7 +65254,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -65824,7 +65826,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -66144,7 +66146,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -66246,7 +66248,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -66602,7 +66604,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -67066,7 +67068,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -67240,7 +67242,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -67668,7 +67670,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -67896,7 +67898,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -69734,7 +69736,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -70048,7 +70050,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -70788,7 +70790,7 @@ box move r 120
 pushbox
 getcell font_28 child 0 0
 popbox
-box move r 3180
+box move r 90
 
 # t
 pushbox
@@ -71094,7 +71096,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # 0
 pushbox
@@ -71118,7 +71120,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 # 0
 pushbox
@@ -71504,7 +71506,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -71788,7 +71790,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -71920,7 +71922,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -72174,7 +72176,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -72656,7 +72658,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -74114,7 +74116,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -74246,7 +74248,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -74830,7 +74832,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -74872,7 +74874,7 @@ box move r 120
 pushbox
 getcell font_2C child 0 0
 popbox
-box move r 3300
+box move r 90
 
 #  
 pushbox
@@ -75450,3 +75452,6 @@ box move r 90
 
 box position 0 -77600
 
+
+gds write gds/war-of-the-worlds.gds
+quit

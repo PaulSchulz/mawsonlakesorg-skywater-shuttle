@@ -1,8 +1,8 @@
 The Elements
 
-words: Tom Lehrer (public domain)
-music: "The Major General's Song" from The Pirates of
-Penzance, by Arthur Sullivan (public domain) 
+Words: Tom Lehrer (public domain)
+Music: "The Major General's Song" from The Pirates of
+  Penzance, by Arthur Sullivan (public domain) 
 
 There's antimony, arsenic, aluminum, selenium,
 And hydrogen and oxygen and nitrogen and rhenium,

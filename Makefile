@@ -1,37 +1,49 @@
-.PHONY: all doc \
-	text-skywater \
-	text-babbage \
-	text-the-elements \
-	text-war-of-the-worlds
+.PHONY: all doc doc-clean clean help
 
 all: \
-	text-skywater \
-	text-babbage \
-	text-the-elements \
-	text-war-of-the-worlds
+	gds/sky130-font.gds \
+	gds/skywater.gds \
+	gds/the-elements.gds \
+	gds/war-of-the-worlds.gds
+
+#	gds/babbage.gds \
 
 doc:
 	make -C doc
 
-text:
-	@echo "Build text output with 'make text-<filename>'"
+doc-clean:
+	-make -C doc clean
 
-text-skywater: data/skywater.txt
-	libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
-		< data/skywater.txt \
-		> tcl/skywater.tcl
+help:
+	@echo "make  - build gdm files"
+	@echo "doc   - build html doc/images"
+	@echo "clean - remove intermediate files"
 
-text-babbage: data/babbage.txt
+gds/sky130-font.gds: data/sky130-font.txt
 	libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
-		< data/babbage.txt \
-		> tcl/babbage.tcl
+		-c sky130-font < $< > tcl/sky130-font.tcl
+	magic -nocolsole -dnull tcl/sky130-font.tcl
 
-text-the-elements: data/the-elements.txt
+gds/skywater.gds: data/skywater.txt
 	libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
-		< data/the-elements.txt \
-		> tcl/the-elements.tcl
+		-c skywater < $< > tcl/skywater.tcl
+	magic -nocolsole -dnull tcl/skywater.tcl
 
-text-war-of-the-worlds: data/war-of-the-worlds.txt
+gds/babbage.gds: data/babbage.txt
 	libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
-		< data/war-of-the-worlds.txt \
-		> tcl/war-of-the-worlds.tcl
+		-c babbage < $< > tcl/babbage.tcl
+	magic -nocolsole -dnull tcl/babbage.tcl
+
+gds/the-elements.gds: data/the-elements.txt
+	libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
+		-c the-elements < $< > tcl/the-elements.tcl
+	magic -nocolsole -dnull tcl/the-elements.tcl
+
+gds/war-of-the-worlds.gds: data/war-of-the-worlds.txt
+	libraries/sky130_pschulz_xx_hd/scripts/text2magic.py \
+		-c war-of-the-worlds < $< > tcl/war-of-the-worlds.tcl
+	magic -nocolsole -dnull tcl/war-of-the-worlds.tcl
+
+clean: doc-clean
+	-rm tcl/*
+	-rm gds/*

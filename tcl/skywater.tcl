@@ -1,4 +1,6 @@
 path .:libraries/sky130_pschulz_xx_hd/mag
+
+select top cell
 snap int
 box position 0 0
 
@@ -2068,3 +2070,6 @@ box move r 90
 
 box position 0 -2800
 
+
+gds write gds/skywater.gds
+quit

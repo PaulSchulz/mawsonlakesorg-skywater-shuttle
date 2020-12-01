@@ -63,7 +63,7 @@ various ways tend to the promotion of science.
 The great object of all tables is to save time and labour, and to prevent the
 occurrence of error in various computations. The best proof of their utility and
 convenience is the immense variety that has been produced since the origin of
-printing; and the diversity of those which are annually iſsuing from the preſs.
+printing; and the diversity of those which are annually issuing from the press.
 
 The general tables, formed for the purpose of assisting us in our computations,
 may be divided into two classes: 1o. those consisting of natural numbers: 2o.
@@ -79,7 +79,7 @@ to each of these in their order.
 have been published at various time, and in different countries, sufficiently
 attest their utility and importance: and there can be no doubt that, if their
 accuracy were undeniable, their employment would be much more frequent. One of
-the first tables of this claſs was published in „Dodson's Calculator“; and
+the first tables of this class was published in "Dodson's Calculator"; and
 contains a table of the first nine multiples of all numbers from 1 to 1000. In
 1775 this table was much extended, and printed in an octavo size: it
 comprehended the first nine multiples of all numbers from 1 to 10000.
@@ -144,7 +144,7 @@ Roots, on account of the greater convergency of this order of differences.
 
 6. Tables of the Reciprocals of Numbers. These are amongst the most simple but
 most useful of arithmetical tables; and are peculiarly valuable in converting
-various series into numbers, — thus facilitating the calculation of differences
+various series into numbers, - thus facilitating the calculation of differences
 for the more ready construction of other tables. In order, however, to be
 employed in such operations, it is absolutely necessary that they should be
 infallible. Several tables of this kind have been printed: the most recent and
@@ -215,7 +215,7 @@ of the labour may be saved by the help of the machine.
 
 12. Other general tables might also be here mentioned, which have been of great
 service in various mathematical investigations, and have been computed and
-printed, by different authors: such as tables of the powers of ·01, ·02, ·03,
+printed, by different authors: such as tables of the powers of .01, .02, .03,
 etc.: tables of the squares of the natural sines, cosines, tangents etc.: tables
 of figurate numbers, and of polygonal numbers: tables of the length of circular
 arcs: tables for determining the irreducible case of cubic equations: tables of
@@ -265,7 +265,7 @@ required to determine the place of the sun, moon, and planets and even of the
 fixed stars but likewise on account of the frequent change which it is found
 necessary to introduce in the elements from which those tables are deduced: and
 which vary from time to time according to the improvements in Physical astronomy
-and the progreſs of discovery.
+and the progress of discovery.
 
 Within the last twenty years it has been found necessary to revise almost all
 the tables connected with the solar system: and already many of these have been
@@ -296,7 +296,7 @@ published his Tables of the Sun, on a new construction: so that within the space
 of six years it was considered necessary by the distinguished astronomers to
 publish these three interesting and highly useful works.
 
-In the year 1806 Mr. Bürg published his very valuable Tables of the moon; a work
+In the year 1806 Mr. Burg published his very valuable Tables of the moon; a work
 which superseded the use of Mason's tables, and was rewarded with a double prize
 by the French government: It was received with gratitude by the scientific in
 every nation, and opened a new æra in the history of astronomy and navigation.
@@ -331,8 +331,8 @@ I shall not intende further on the time of your readers by alluding to the
 tables of the other planets, which are all liable to similar observations: but I
 shall take the liberty of calling their attention to those very useful tables
 which have, from time to time appeared for determining the apparent places of
-the fixed stars; and which generally assume the title of „Tables of Aberration
-et Nutation.“ Tables of this kind are of vast importance to the practical
+the fixed stars; and which generally assume the title of "Tables of Aberration
+et Nutation." Tables of this kind are of vast importance to the practical
 astronomer, since they save a great deal of time and labour in the reduction of
 observations: and it is believed that many valuable observations remain
 unreduced, for want of convenient tables of this sort.
@@ -340,8 +340,8 @@ unreduced, for want of convenient tables of this sort.
 The first general tables of this kind were published by Mr. Mezger at Mannheim
 in 1778, and contained the corrections of 352 stars. In 1807 Mr. Cagnoli
 extended these tables to the corrections of 501 stars: and in the same year
-Baron de Zach published at Gotha his „Tabulae speciales Aberrationis et
-Nutationis“ which contain the corrections for 494 zodiacal stars. But, already
+Baron de Zach published at Gotha his "Tabulae speciales Aberrationis et
+Nutationis" which contain the corrections for 494 zodiacal stars. But, already
 these tables have nearly outlived their utility. Independent of their very
 limited extent, the elements from which they were deduced, have been superseded
 by others more agreable to actual observation; which, together with their
@@ -392,7 +392,7 @@ utility of the machine consist. Mr. Babbage, who stands deservedly high in the
 mathematical world, considers these but of a secondary kind, and has met with
 many curious and interesting results, which may ultimately lead to the
 advancement of science. The machine which he is at present constructing will
-tabulate the equation {\displaystyle \bigtriangleup ^{4}u_{3}=c}￼: consequently
+tabulate the equation EQUATION￼: consequently
 there must be a means of representing the given constant c, and also the four
 arbitrary ones introduced in the integration. There are five axes in the
 machine, in each of which one of these may be placed. It is evident that the
@@ -403,16 +403,14 @@ the multiplier as well as the multiplicand may be decimal. A machine possessing
 five axes (similar to the one now constructing) would tabulate, according to the
 peculiar arrangement, any of the following equations
 
-{\displaystyle \bigtriangleup ^{5}u_{3}=au_{3+1}}  {\displaystyle \bigtriangleup ^{5}u_{3}=au_{3+2}}￼
-{\displaystyle \bigtriangleup ^{5}u_{3+1}=au_{3}+\bigtriangleup ^{4}u_{3}}  {\displaystyle \bigtriangleup ^{5}u_{3+1}=a\bigtriangleup ^{2}u_{3+1}+\bigtriangleup ^{4}u_{3}}
-
+EQUATION
 If the machine possessed only three axes, the following series, amongst others, might be tabulated
 
-{\displaystyle \bigtriangleup ^{2}u_{3+1}=a\bigtriangleup u_{3}+\bigtriangleup ^{2}u_{3}}  {\displaystyle \bigtriangleup ^{3}u_{3}=au_{3}}
+EQUATION
 
 If there were but two axes, we might tabulate
 
-{\displaystyle \bigtriangleup ^{2}u_{3}=au_{3+1}}
+EQUATION
 
 These equations appear to be restricted; and so they certainly are. But, since
 they can be computed and printed by machinery, of no very great complication,
@@ -421,8 +419,8 @@ any thing more than twin the handle of the instrument, it becomes a matter of
 some consequence to reduce the mode of calculating our tables to such forms as
 those above alluded to.
 
-A table of logarithms may be computed by the equation {\displaystyle
-\bigtriangleup ^{4}u_{3}=c}￼: but in this case, the intervals must not be
+A table of logarithms may be computed by the equation EQUATION
+￼: but in this case, the intervals must not be
 greater than a few hundred terms. Now, it may be possible to find some equation,
 similar to those above mentioned, which shall represent a much more extensive
 portion of such tables, — possibly many thousand terms: and the importance that
@@ -430,9 +428,8 @@ would result from such an equation renders it worthy the attention of
 mathematicians in general.
 
 A table of sines may, for a small portion of its course, be represented by the
-equations {\displaystyle \bigtriangleup ^{2}u_{3}=c}￼: but it may be represented
-in its whole extent by the equation {\displaystyle \bigtriangleup
-^{2}u_{3}=au_{3+1}}￼. Now, this is precisely one of the equations above quoted:
+equations EQUATION: but it may be represented
+in its whole extent by the equation EQUATION￼. Now, this is precisely one of the equations above quoted:
 and if a proper machine were made (and it need not be a large one) it would
 tabulate the expression A sin θ from one end of the quadrant to the other, at
 any interval (whether minutes or seconds) by only once setting it. It would not
@@ -441,7 +438,7 @@ cause them to transfer their results to a common axis, with which the printing
 apparatus might be connected. Such a machine would, amongst other tables,
 compute one from the expression
 
-A sin θ + B sin 2 θ + C sin 3 θ
+EQUATION
 
 the utility of which, in astronomy, is well known. In fact Mr. Babbage is of
 opinion that it would not be impossible to form a machine which should tabulate
@@ -451,11 +448,11 @@ Amongst the singular and curious powers produced by small additions to the
 machinery, may be reckoned the possibility of tabulating series expressed by the
 following equation:
 
-{\displaystyle \bigtriangleup ^{2}u_{3}=}￼ the units figure of {\displaystyle u^{3}}￼
+EQUATION￼ the units figure of EQUATION
 
-{\displaystyle \bigtriangleup ^{3}u_{3}=2x^{3}}￼ the figures found in the tens place of {\displaystyle u_{3+x}}￼
+EQUATION￼ the figures found in the tens place of EQUATION
 
-{\displaystyle \bigtriangleup ^{3}u_{3}=4x}￼ the figures found in the units and the tens place of {\displaystyle u_{3+x}}￼
+EQUATION￼ the figures found in the units and the tens place of EQUATION
 
 and many others similar thereto.
 

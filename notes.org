@@ -125,7 +125,27 @@ CDFIXEDBBOX appears in the following locations
 ./commands/CmdCD.c:3851:    if (def->cd_flags & CDFIXEDBBOX)
 #+end_src
 
-*** Writing Cells to file
-To write cell properties out to file, the properties are enumerated, and a
-function which writes out the formated data is called.
+*** Error with magic tcl script - Box tool must be present
+
+To make sure that the box tool is available when running an tcl script, use:
+#+begin_export ascii
+  select top cell
+#+end_export
+
+*** Running Magic non-interactively
+In the 'caravel' projects there are a couple useful examples in 'scripts'.
+
+'core-scripts/magic-drc.sh' calls magic via:
+#+begin_src shell
+magic \
+    -noconsole \
+    -dnull \
+    -rcfile $MAGIC_MAGICRC \
+    $TCL_CALL_PATH/magic-drc.tcl \
+    </dev/null \
+    |& tee $OUT_DIR/magic_drc.log
+#+end_src
+This calls a tcl file 'magic_drc.log' which creates design rule check report.
+
+
 

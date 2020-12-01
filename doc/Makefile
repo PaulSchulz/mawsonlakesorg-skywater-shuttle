@@ -1,14 +1,16 @@
 .PHONY: all clean
 
-all: font-sky130.html \
-	open-source-hardware.html \
-	mawsonlakes-org.html \
+all: index.html \
+	sky130-font.html \
 	skywater.html \
 	babbage.html \
 	the-elements.html \
 	war-of-the-worlds.html
 
-font-sky130.html: ../gds/font-sky130.gds
+index.html:
+	cp ../../GDS2WebGL/$@ .
+
+sky130-font.html: ../gds/sky130-font.gds
 	python3 ../../GDS2WebGL/gds2webgl.py \
 	-i $< -o $@
 
@@ -35,7 +37,6 @@ the-elements.html: ../gds/the-elements.gds
 war-of-the-worlds.html: ../gds/war-of-the-worlds.gds
 	python3 ../../GDS2WebGL/gds2webgl.py \
 	-i $< -o $@
-
 
 clean:
 	rm *.html
