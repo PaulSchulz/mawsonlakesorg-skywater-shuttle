@@ -3,6 +3,7 @@
 all:
 	make -C src
 	cp src/*.gds gds/
+	cp gds-orig/*.gds gds/
 
 doc:
 	make -C doc

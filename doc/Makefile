@@ -5,7 +5,8 @@ OBJS := index.html \
 	skywater.html \
 	babbage.html \
 	the-elements.html \
-	war-of-the-worlds.html
+	war-of-the-worlds.html \
+	open-source-hardware.html
 
 all : $(OBJS)
 
@@ -37,6 +38,10 @@ the-elements.html: ../gds/the-elements.gds
 	-i $< -o $@
 
 war-of-the-worlds.html: ../gds/war-of-the-worlds.gds
+	python3 ../../GDS2WebGL/gds2webgl.py \
+	-i $< -o $@
+
+open-source-hardware.html: ../gds/open-source-hardware.gds
 	python3 ../../GDS2WebGL/gds2webgl.py \
 	-i $< -o $@
 
