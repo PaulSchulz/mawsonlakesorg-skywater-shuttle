@@ -1,11 +1,13 @@
 .PHONY: all clean
 
-all: index.html \
+OBJS := index.html \
 	sky130-font.html \
 	skywater.html \
 	babbage.html \
 	the-elements.html \
 	war-of-the-worlds.html
+
+all : $(OBJS)
 
 index.html:
 	cp ../../GDS2WebGL/$@ .

@@ -1,7 +1,0 @@
-Google + Skywater 130nm Shuttle
-Date: November 2020
-
-The SKY130 process is a mature 180nm-130nm hybrid technology originally
-developed internally by Cypress Semiconductor before being spun out into
-SkyWater Technology and made accessible to general industry. SkyWater and
-Google's collaboration is now making this technology accessible to everyone!
